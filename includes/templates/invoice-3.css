@@ -1,0 +1,43 @@
+@page {
+	margin: 30px;
+}
+
+table.product-table tr:nth-child(1) th {
+	background: #53C8C4;
+	color: #3f3f3f;
+	border-top: 0;
+	border-bottom: 0;
+	height: 30px;
+}
+/*.product-list {*/
+/*    border-left: 2px solid #3f3f3f;*/
+/*    border-right: 2px solid #3f3f3f;*/
+/*}*/
+
+table.product-table,
+table.refund-table{
+	border-bottom: 2px solid #3f3f3f;
+}
+/*table.order-total-table td{*/
+	/*border:1px solid black;*/
+/*}*/
+table.product-table tr:nth-child(1) td,
+table.refund-table tr:nth-child(1) td{
+	border-top: 2px solid #3f3f3f;
+}
+
+.total-last-td-label {
+	height: 2px;
+	background: #53C8C4;
+}
+
+.total-last-td-value {
+	background: #53C8C4;
+}
+.bank-account-list-header {
+	background: #53C8C4;
+}
+.bank-account-list-header th{
+	color: #ffffff;
+	height: 20px;
+}

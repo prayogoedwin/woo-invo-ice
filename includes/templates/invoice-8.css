@@ -1,0 +1,27 @@
+table.order-table {
+	border-bottom:1px dashed #3f3f3f;
+}
+table.product-table tr:nth-child(1) th {
+	color: #3f3f3f;
+	border-top: 1px dashed #3f3f3f;
+	border-bottom: 1px dashed #3f3f3f;
+	height: 30px;
+}
+
+table.product-table,
+table.refund-table{
+	border-bottom: 1px dashed #3f3f3f;
+}
+table.refund-table {
+	border-top: 1px dashed #3f3f3f;
+}
+.total-last-td-label {
+	border-bottom: 1px dashed #3f3f3f;
+	height: 0;
+}
+.total-last-td-value{
+	border-bottom: 1px dashed #3f3f3f;
+}
+.bank-accounts-table {
+	border: 1px dashed #3f3f3f;
+}

@@ -1,0 +1,30 @@
+@page{
+	margin: 20px;
+	background: #FFF8F1;
+}
+table.product-table,
+table.refund-table{
+	border-collapse: collapse;
+	border-bottom:2px solid #AED6CF;
+}
+table.refund-table {
+	border-top: 2px solid #AED6CF;
+}
+
+table.product-table tr:nth-child(1) th {
+	color: #377068;
+	border-top: 2px solid #AED6CF;
+	border-bottom: 2px solid #AED6CF;
+	height: 30px;
+}
+
+.total-last-td-label {
+	border-bottom: 2px solid #AED6CF;
+	height: 1px;
+}
+.total-last-td-value{
+	border-bottom: 2px solid #AED6CF;
+}
+.bank-accounts-table {
+	border: 2px solid #AED6CF;
+}

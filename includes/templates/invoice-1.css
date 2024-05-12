@@ -1,0 +1,55 @@
+@page {
+	margin: 20px;
+}
+.invoice-box {
+	position: relative;
+	max-width: 800px;
+	margin: 0 auto;
+	/* height: calc(100% - 44px); */
+	min-height: 100%;
+	display: flex;
+	flex: 0 0 100%;
+}
+.invoice-box-inner {
+	padding: 20px;
+	border: 2px solid #000;
+	width: 100%;
+}
+table.product-table,
+table.refund-table {
+	border-bottom: 1px solid #EDEDED;
+	width: 100%;
+}
+table.product-table tr td,
+table.refund-table tr td{
+	border-top: 1px solid #EDEDED;
+}
+.invoice-footer-hr{
+	width: 95%;
+}
+.order-table {
+	background: #F5F5F5;
+	padding: 10px 20px;
+}
+.order-table td.billing-td,
+.order-table td.shipping-td,
+.order-table td.order-data-td{
+	padding: 5px 5px 5px 5px;
+}
+.order-table td.billing-td {
+	padding-right: 20px;
+}
+.bank-account-list-header {
+	background: #F5F5F5;
+	height: 30px;
+}
+.bank-accounts-table {
+	margin: 10px 0px 10px 0px;
+}
+.total-last-td-label {
+	height: 2px;
+	background: #3f3f3f;
+}
+.total-last-td-value {
+	background: #3f3f3f;
+}

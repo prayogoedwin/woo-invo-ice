@@ -1,0 +1,30 @@
+@page {
+	margin: 30px;
+}
+table.product-table{
+	border-collapse: collapse;
+}
+table.product-table tr th{
+	height:30px;
+	color: white;
+	background-color: #303233;
+}
+table.product-table tr td {
+	border-bottom: 1px solid #DCDADB;
+}
+
+.total-last-td-label {
+	border-bottom: 2px solid;
+	height: 1px;
+}
+.total-last-td-value{
+	border-bottom: 2px solid;
+}
+.invoice-footer-hr{
+	margin-bottom: 0px;
+	width: 100%;
+}
+.invoice-footer-table{
+	width: 100%;
+	padding: 0;
+}

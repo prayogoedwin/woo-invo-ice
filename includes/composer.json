@@ -1,0 +1,13 @@
+{
+    "require": {
+        "chillerlan/php-qrcode": "^5.0",
+        "htmlburger/carbon-fields": "^3.6",
+        "kunalvarma05/dropbox-php-sdk": "^0.4.2",
+        "mpdf/mpdf": "^8.2"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4.0"
+        }
+    }
+}

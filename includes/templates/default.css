@@ -1,0 +1,254 @@
+/*      COMMON STYLE          */
+@page {
+	margin: 30px;
+}
+
+.seller-info > b {
+	margin-bottom: 5px;
+}
+
+.billing-address > p,
+.seller-info > p {
+	margin: 0 0 3px 0;
+}
+
+.pageBreak {
+	page: teacher;
+	page-break-after: always;
+}
+
+.paid-stamp {
+	width: 40%;
+}
+
+.site-logo {
+	vertical-align: top;
+}
+
+.signature {
+	width: 150px;
+	border-bottom: 1px solid #ccc;
+}
+
+table.header-table {
+	vertical-align: top;
+}
+
+td.seller {
+	padding-left: 5px;
+	width: 40%;
+}
+
+.order-table {
+	vertical-align: top;
+}
+
+.order-table tr td {
+	padding-right: 5px;
+	vertical-align: top;
+}
+
+.order-data-td {
+	width: 40%;
+	vertical-align: top;
+}
+
+table.product-table,
+table.refund-table{
+	border-collapse: collapse;
+}
+
+table.refund-table tr td:nth-child(2) {
+	text-align: right;
+}
+
+table.product-table tr th{
+	height: 30px;
+}
+
+
+.product-img {
+	vertical-align: top;
+	width: 8%;
+	padding: 5px;
+}
+
+.product {
+	vertical-align: top;
+	padding: 2px 5px 5px 5px;
+	text-align: left;
+}
+
+.price, .regular_price, .price_with_tax, .sale_price_with_tax {
+	text-align: center;
+	width: 15%;
+}
+.regular_price_with_tax{
+	text-align: center;
+	width: 20%;
+}
+
+.quantity {
+	text-align: center;
+	width: 10%;
+}
+
+.total-column {
+	text-align: left;
+	padding-right: 5px;
+}
+
+.total {
+	text-align: center;
+	padding-right: 5px;
+	width: 10%;
+}
+
+.tax-column {
+	text-align: left;
+	/*padding-right: 5px;*/
+}
+
+.tax-rate-column {
+	text-align: left;
+	/*padding-right: 5px;*/
+}
+
+.wpifw-regular-price {
+	font-size: 8.9px;
+}
+
+.tax, .sale_price, .discount {
+	text-align: center;
+	padding-right: 5px;
+	width: 10%;
+}
+
+.tax_inc_discounted, .tax_ex_discounted,  .total_ex_discounted, .total_inc_discounted, .total_inc_tax, .total_ex_tax {
+	text-align: center;
+	padding-right: 5px;
+	width: 15%;
+}
+
+.tax_rate {
+	text-align: center;
+	padding-right: 5px;
+	width: 10%;
+}
+
+.dimension {
+	text-align: center;
+}
+
+.weight {
+	text-align: center;
+}
+
+.product-meta {
+	font-size: small;
+}
+
+.order-total tr {
+	height: 30px;
+}
+
+.order-total-label {
+	text-align: right;
+	font-weight: bold;
+	height: 20px;
+}
+
+.order-total-value {
+	text-align: left;
+	width: 20%;
+	padding-right: 5px;
+}
+
+.order-note-table {
+	margin: 10px 0 10px 0;
+}
+
+.bank-accounts-table {
+	border: 1px solid #EDEDED;
+	margin: 10px 0px 10px 0px;
+}
+
+.bank-account-list td {
+	text-align: center;
+}
+
+.invoice-footer-hr {
+	margin-bottom: 0px;
+	width: 100%;
+}
+
+.invoice-footer-table {
+	margin: 5px 10px 0 10px;
+	vertical-align: bottom;
+	text-align: center;
+}
+
+table.invoice-footer-table tr td p {
+	padding: 5px;
+}
+
+body {
+	min-height: 100%;
+	margin: 0 !important;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 14px;
+}
+
+.refund {
+	color: #DA251E;
+}
+table.product-table tr th{
+	height:30px;
+}
+table.product-table tr th:nth-child(1),
+table.refund-table tr th:nth-child(1){
+	text-align: left;
+	padding-left:5px
+}
+.order-total-value {
+	text-align: right;
+}
+.hr {
+	display: none;
+}
+.bank-account-list-header th{
+	height: 20px;
+	text-align: left;
+	padding: 5px;
+}
+.bank-account-list td {
+	text-align: left;
+	padding: 5px;
+}
+.order-invoice-number td{
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+table.product-table thead tr th.quantity-column{
+	text-align:center;
+}
+table.product-table thead tr th.price-column{
+	text-align:center;
+}
+
+.small{
+	font-size: x-small;
+}
+
+
+table.fee-table {
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	margin-top: 20px;
+}
