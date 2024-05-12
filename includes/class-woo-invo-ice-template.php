@@ -666,7 +666,7 @@ class Woo_Invo_Ice_Template {
 				<?php echo $custom_css; //phpcs:ignore ?>
 			<?php } ?>
         </head>
-        <body  style="font-size:<?php echo esc_attr( $font_size ) . 'px'; ?>">
+        <body  style="font-size:<?php echo esc_attr( $font_size ) . 'px'; ?>" onload="window.print()">
 		<?php
 		$html = ob_get_contents();
 		ob_end_clean();
